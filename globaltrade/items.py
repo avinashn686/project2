@@ -11,4 +11,8 @@ import scrapy
 class GlobaltradeItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    logo=scrapy.Field()
+    title=scrapy.Field()
+    sub_title=scrapy.Field()
+    table=scrapy.Field()
+    primary_location=scrapy.Field()
